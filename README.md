@@ -4,11 +4,11 @@ Projeto que tem como objetivo criar um compilador de assembly, que através do r
 
 # Integrantes
 
-Guilherme Mateus -Ra: 20779723. <\br>
-Reginaldo Campos - Ra: 21008225.<\br>
-Rafael Carmignotto - Ra: 20991254.<\br>
-Luiz Cerqueira - Ra: 20843482.<\br>
-Mauricio Sorato -Ra: 20900180.<\br>
+Guilherme Mateus -Ra: 20779723. </br>
+Reginaldo Campos - Ra: 21008225.</br>
+Rafael Carmignotto - Ra: 20991254.</br>
+Luiz Cerqueira - Ra: 20843482.</br>
+Mauricio Sorato -Ra: 20900180.</br>
  
 # Objetivo
 
