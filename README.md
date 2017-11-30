@@ -2,40 +2,31 @@
 Projeto que tem como objetivo criar um compilador de assembly, que através do recebimento de uma expressão retornar sua resolução com o código em assembly.
 
 
-Integrantes
+*Integrantes
 
-
-
-
-
-
-
-
-
-
-Guilherme Mateus.		Ra: 20779723.
+Guilherme Mateus.	Ra: 20779723.
 Reginaldo Campos.	Ra: 21008225.
 Rafael Carmignotto	Ra: 20991254.
 Luiz Cerqueira		Ra: 20843482.
 Mauricio Sorato		Ra: 20900180.
  
-Objetivo
+*Objetivo
 
 Nosso trabalho teve como objetivo o desenvolvimento de um compilador de linguagem assemble, utilizamos a linguagem de programação Java para isso, onde ele receberá uma expressão matemática e essas expressões seguem as seguintes regras:
 Somente letras e essas letras não podem ser “negativas” Ex: (-A) dentre outras regras que estarão na parte final desse arquivo com o título de Alertas e Instruções para uso, onde ele teria que respeitar as regras da matemática, de sinais, resolver essas expressões e desenvolver o código assemble.
  
-Desenvolvimento do projeto
+*Desenvolvimento do projeto
 
 O desenvolvimento do projeto não foi nada fácil, tivemos muitas dificuldades por conta de ser um projeto que exige uma complexidade maior, porém alcançamos resultados animadores, o projeto foi desenvolvido totalmente em POO (Programação Orientada a Objetos) pelo motivo de ser mais seguro, reaproveitamento de código e também de fácil leitura, ainda mais que o programa foi feito totalmente comentado para que até as pessoas que está iniciando agora consigam entender o funcionamento do mesmo.
 
 Chegar ao resultado final desse programa não foi nada fácil, desenvolvemos e otimizamos ele muito, como mostra na figura abaixo até chegarmos no programa que foi finalizado.
 
- 
+![alt text](https://github.com/GuilermeMateus/Compilador-assembler/blob/master/pacotesprojeto.png)
 
 O compilador foi projetado para suportar expressões com até cinco grupos de parênteses, além disso conta com um excelente sistema de reaproveitamento de variáveis por conta que ele só utiliza seis variáveis para a resolução da expressão e assim que acontece uma operação com uma das variáveis ele automaticamente zera o seu conteúdo par que ela seja utilizada novamente.
 Além de tudo nosso programa gera dois arquivos de texto (.txt) um arquivo que contém toda a resolução da expressão com as instruções em assembly corretas para inicialização e finalização da aplicação e também gera um arquivo de “log” onde mostra passo a passo a expressão como foi resolvida e também mostra as variáveis que estão sendo trabalhadas juntamente com o AC.  
  
-Funcionamento e Métodos
+*Funcionamento e Métodos
 
 Atenção todas as classes que possuem: throws IoException tem escrita de informações em arquivos, por isso o throws para fazer o tratamento de erros na própria classe ao invés de usar vários try catch’s para cada instrução escrita.
 
@@ -152,34 +143,36 @@ Criar uma variável com o nome pro informando o tipo como process, logo após pr
 Simplesmente essa classe essa serve para fechar ambos os arquivos.
 A classe possui um try catch para casso aconteça algum erro e logo após fechamos esses arquivos com .close() em ambos os txt que estavam sendo manipulados.
  
-Fluxograma
- 
- 
- 
-Alertas e Instruções Para o Uso
+*Fluxograma
 
+https://github.com/GuilermeMateus/Compilador-assembler/blob/master/Fluxograma1.png
+https://github.com/GuilermeMateus/Compilador-assembler/blob/master/Fluxograma2.png
+https://github.com/GuilermeMateus/Compilador-assembler/blob/master/Fluxograma3.png
  
+*Alertas e Instruções Para o Uso
 
- 
+![alt text](https://github.com/GuilermeMateus/Compilador-assembler/blob/master/1.PNG)
+![alt text](https://github.com/GuilermeMateus/Compilador-assembler/blob/master/2.PNG)
+![alt text](https://github.com/GuilermeMateus/Compilador-assembler/blob/master/3.PNG)
+![alt text](https://github.com/GuilermeMateus/Compilador-assembler/blob/master/4.PNG)
+![alt text](https://github.com/GuilermeMateus/Compilador-assembler/blob/master/5.PNG)
+![alt text](https://github.com/GuilermeMateus/Compilador-assembler/blob/master/6.PNG)
+![alt text](https://github.com/GuilermeMateus/Compilador-assembler/blob/master/7.PNG)
 
- 
+*Teste do Programa
 
- 
-
- 
-
- 
- 
-
-Teste do Programa
 O programa sempre se inicia com essa interface:
- 
+![alt text](https://github.com/GuilermeMateus/Compilador-assembler/blob/master/teste1.PNG)
+
 Depois de digitar a expressão o programa abre uma janela para o usuário escolher o diretório onde deseja salvar o arquivo:
- 
+![alt text](https://github.com/GuilermeMateus/Compilador-assembler/blob/master/teste2.PNG)
+
 Após a escolha do diretório o sistema abrira somente o arquivo com a resolução da expressão, pois o arquivo de log nem sempre será necessário, caso o usuário queira abrir é só ir até o local que o arquivo estará lá.
+![alt text](https://github.com/GuilermeMateus/Compilador-assembler/blob/master/teste3.PNG)
  
  
-Código
+*Código
+
 •	Classe Métodos.
 Todos os métodos desta classe foram desenvolvidos por autoria própria e todo o conteúdo possui comentários para ao auxílio na logica deste programa para caso outra pessoa precise utiliza-lo para quaisquer aplicação. 
 package Compilador5_0;
