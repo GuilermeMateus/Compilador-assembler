@@ -488,13 +488,11 @@ public class Metodos extends Compilador{
 }
 
 •	Classe Compilador.
-A classe compilador a maioria de suas linhas de comando foram feitas pela própria ideia na criação de um arquivo JFrame, a parte que codamos foi somente o método private void BtnCompilarActionPerformed(java.awt.event.ActionEvent evt) que seria o evento de clique do nosso botão.
+A classe compilador a maioria de suas linhas de comando foram feitas pela própria IDE na criação de um arquivo JFrame, a parte que codamos foi somente o método private void BtnCompilarActionPerformed(java.awt.event.ActionEvent evt) que seria o evento de clique do nosso botão.
 	Também incluímos alguns alertas com o JOptionPane na classe public void run() dentro da classe main.
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+	
+	
+
 package Compilador5_0;
 
 import java.io.IOException;
@@ -502,11 +500,6 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 
-
-/**
- *
- * @author Guilherme
- */
 public class Compilador extends javax.swing.JFrame {
 
     /**
