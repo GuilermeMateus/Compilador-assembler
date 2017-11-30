@@ -145,29 +145,38 @@ A classe possui um try catch para casso aconteça algum erro e logo após fecham
  
 *Fluxograma
 
-https://github.com/GuilermeMateus/Compilador-assembler/blob/master/Fluxograma1.png
-https://github.com/GuilermeMateus/Compilador-assembler/blob/master/Fluxograma2.png
-https://github.com/GuilermeMateus/Compilador-assembler/blob/master/Fluxograma3.png
+![alt text](https://github.com/GuilermeMateus/Compilador-assembler/blob/master/Fluxograma1.png)
+![alt text](https://github.com/GuilermeMateus/Compilador-assembler/blob/master/Fluxograma2.png)
+![alt text](https://github.com/GuilermeMateus/Compilador-assembler/blob/master/Fluxograma3.png)
  
 *Alertas e Instruções Para o Uso
 
 ![alt text](https://github.com/GuilermeMateus/Compilador-assembler/blob/master/1.PNG)
+
 ![alt text](https://github.com/GuilermeMateus/Compilador-assembler/blob/master/2.PNG)
+
 ![alt text](https://github.com/GuilermeMateus/Compilador-assembler/blob/master/3.PNG)
+
 ![alt text](https://github.com/GuilermeMateus/Compilador-assembler/blob/master/4.PNG)
+
 ![alt text](https://github.com/GuilermeMateus/Compilador-assembler/blob/master/5.PNG)
+
 ![alt text](https://github.com/GuilermeMateus/Compilador-assembler/blob/master/6.PNG)
+
 ![alt text](https://github.com/GuilermeMateus/Compilador-assembler/blob/master/7.PNG)
 
 *Teste do Programa
 
 O programa sempre se inicia com essa interface:
+
 ![alt text](https://github.com/GuilermeMateus/Compilador-assembler/blob/master/teste1.PNG)
 
 Depois de digitar a expressão o programa abre uma janela para o usuário escolher o diretório onde deseja salvar o arquivo:
+
 ![alt text](https://github.com/GuilermeMateus/Compilador-assembler/blob/master/teste2.PNG)
 
 Após a escolha do diretório o sistema abrira somente o arquivo com a resolução da expressão, pois o arquivo de log nem sempre será necessário, caso o usuário queira abrir é só ir até o local que o arquivo estará lá.
+
 ![alt text](https://github.com/GuilermeMateus/Compilador-assembler/blob/master/teste3.PNG)
  
  
