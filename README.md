@@ -173,7 +173,7 @@ O programa sempre se inicia com essa interface:
 
 ![alt text](https://github.com/GuilermeMateus/Compilador-assembler/blob/master/teste1.PNG)
 
-Depois de digitar a expressão o programa abre uma janela para o usuário escolher o diretório onde deseja salvar o arquivo:
+Depois de digitar a expressão o programa abre uma janela para o usuário escolher o diretório onde deseja salvar o arquivo e coloca o nome que for de sua escolha, porém, lembrando que o final tem que ser .txt. Ex: nomearquivo.txt:
 
 ![alt text](https://github.com/GuilermeMateus/Compilador-assembler/blob/master/teste2.PNG)
 
