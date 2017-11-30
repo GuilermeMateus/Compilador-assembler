@@ -4,11 +4,11 @@ Projeto que tem como objetivo criar um compilador de assembly, que através do r
 
 # Integrantes
 
-Guilherme Mateus.	Ra: 20779723.
-Reginaldo Campos.	Ra: 21008225.
-Rafael Carmignotto	Ra: 20991254.
-Luiz Cerqueira		Ra: 20843482.
-Mauricio Sorato		Ra: 20900180.
+Guilherme Mateus -Ra: 20779723. <\br>
+Reginaldo Campos - Ra: 21008225.<\br>
+Rafael Carmignotto - Ra: 20991254.<\br>
+Luiz Cerqueira - Ra: 20843482.<\br>
+Mauricio Sorato -Ra: 20900180.<\br>
  
 # Objetivo
 
@@ -177,6 +177,6 @@ Depois de digitar a expressão o programa abre uma janela para o usuário escolh
 
 ![alt text](https://github.com/GuilermeMateus/Compilador-assembler/blob/master/teste2.PNG)
 
-Após a escolha do diretório o sistema abrira somente o arquivo com a resolução da expressão, pois o arquivo de log nem sempre será necessário, caso o usuário queira abrir é só ir até o local que o arquivo estará lá.
+Após a escolha do diretório, o sistema abrirá somente o arquivo com a resolução da expressão, pois o arquivo de log nem sempre será necessário, caso o usuário queira abrir esse arquivo é só ir até o local que foi escolhido que o arquivo estará lá.
 
 ![alt text](https://github.com/GuilermeMateus/Compilador-assembler/blob/master/teste3.PNG)
